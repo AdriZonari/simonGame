@@ -8,12 +8,11 @@
 
 
     document.addEventListener("keydown", function() {
-      $("#level-title").click(function () {
       if(!started){
         $("#level-title").text("Level " + level);
       nextSequence();
       started = true;
-      })
+      
       }
     });
 
